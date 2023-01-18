@@ -1,17 +1,24 @@
 {
-  "name": "problem-set-3_0",
+  "name": "writing-unit-tests-lab-1",
   "version": "1.0.0",
-  "description": "Structured Problem solving in JS",
+  "description": "1. Run `npm install` to load project dependencies.\r 2. See the problems below for a description of what each function is supposed to do. Each problem has 2 to 6 examples which you will write the test cases for! For example, Problem 1 has six examples, so you should write six `expect` statements (one testing each example). Problem 2 has four examples, so you must write four `expect` statements for those examples. \r 3. For each problem, first write the unit tests in the `exercises.test.js` file.\r 4. Then, run `npm test` to ensure the test case you just wrote FAILS! This is because you have not written the code for the tests yet.\r 5. Once you've written the tests for a problem, implement your solution to the problem in `exercises.js` so that it passes all test cases before moving on to the next problem.\r 6. Repeat Steps 3 through 5 for each problem until you have finished all problems and all test cases are correctly written and are passing.",
   "main": "exercises.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
   "scripts": {
     "test": "jest"
   },
-  "author": "Reuben Ogbonna",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aneika11/writing-unit-tests-lab-1.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "jest": "^24.9.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Aneika11/writing-unit-tests-lab-1/issues"
+  },
+  "homepage": "https://github.com/Aneika11/writing-unit-tests-lab-1#readme"
 }
